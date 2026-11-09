@@ -30,6 +30,54 @@ const articles: Article[] = [
       "Akua Gyekye is Microsoft's Head of Government Affairs for Africa, responsible for shaping the company's public policy agenda and leading a team of policy professionals across the continent. Together, they focus on key policy areas including artificial intelligence, cloud computing, data privacy, cybersecurity, digital safety and integrity, and international trade.",
     url: "https://www.theafricaceoforum.com/forum-2026/en/intervenant/akua-gyekye/",
   },
+  {
+    image: "/images/articles/globalcenter-article.jpg",
+    imageAlt: "Portrait of Akua Gyekye",
+    title: "Women in Focus: Akua Gyekye",
+    excerpt:
+      "Akua Gyekye is Senior Director and Head of Government Affairs for Africa at Microsoft, leading a team that works across technology, policy, government engagement, and partnerships throughout the continent. Her work covers AI and cloud governance, regulatory clarity, cybersecurity, and the responsible and inclusive adoption of technology.",
+    url: "https://www.globalcenter.ai/aorai/women-in-focus/akua-gyekye",
+  },
+  {
+    image: "/images/articles/cipit-article.jpg",
+    imageAlt: "Portrait of Akua Gyekye",
+    title: "Akua Gyekye — CIPIT Steering Committee",
+    excerpt:
+      "Akua Gyekye serves as Microsoft's Head of Government Affairs for Africa, where she shapes the company's public policy agenda and leads a team of policy professionals across the continent. Her team's priorities include AI, cloud computing, data privacy, cybersecurity, digital safety, and international trade.",
+    url: "https://cipit.strathmore.edu/steering-committee/akua-gyekye/",
+  },
+  {
+    image: "/images/articles/iicom-article.jpg",
+    imageAlt: "Portrait of Akua Gyekye",
+    title: "Akua K. Gyekye — International Institute of Communications",
+    excerpt:
+      "Akua Gyekye is Microsoft's Regional Government Affairs Director for Africa, overseeing the company's legal and government affairs team. The role covers public policy on topics such as AI, cloud, data privacy, cybersecurity, and international trade. Before joining Microsoft, she worked in public policy and government affairs at WhatsApp, covering Europe, the Middle East, and Africa.",
+    url: "https://www.iicom.org/profile/akua-gyekye/",
+  },
+  {
+    image: "/images/articles/africancollab-article.jpg",
+    imageAlt: "Portrait of Akua Gyekye",
+    title: "Akua Gyekye — African Collaborative",
+    excerpt:
+      "Akua Gyekye is Microsoft's Head of Government Affairs for Africa, where she shapes the company's public policy agenda and leads a team of policy professionals across the continent. Her team works on issues such as AI, cloud computing, data privacy, and cybersecurity, partnering with governments, civil society, and industry to shape technology policy across Africa.",
+    url: "https://www.africancollab.org/people/akua-gyekye",
+  },
+  {
+    image: "/images/articles/coe-article.jpg",
+    imageAlt: "Portrait of Akua Gyekye",
+    title: "Akua Gyekye — Octopus Cybercrime Community, Council of Europe",
+    excerpt:
+      "Akua Gyekye leads Microsoft's government affairs work across Africa, shaping the company's public policy agenda and managing a team of policy professionals. Her focus areas include AI, cloud computing, data privacy, cybersecurity, digital safety, and international trade, working with governments, civil society, and industry to shape technology policy.",
+    url: "https://www.coe.int/en/web/cybercrime/-/akua-gyekye",
+  },
+  {
+    image: "/images/articles/techreviewafrica-article.jpg",
+    imageAlt: "Portrait of Akua Gyekye",
+    title: "Akua Gyekye Appointed Microsoft Head of Government Affairs for Africa",
+    excerpt:
+      "Microsoft has named Akua Gyekye its Head of Government Affairs for Africa, a promotion from her earlier role as Government Affairs Director. In the position, she leads the company's government affairs strategy across the continent on issues such as digital transformation, cybersecurity, and AI governance.",
+    url: "https://techreviewafrica.com/news/2687/akua-gyekye-appointed-microsoft-head-of-government-affairs-for-africa",
+  },
 ];
 
 export const Route = createFileRoute("/community")({
