@@ -1,9 +1,9 @@
 {
   "compatibility_date": "2026-11-09",
-  "main": "index.mjs",
+  "main": ".output/server/index.mjs",
   "assets": {
     "binding": "ASSETS",
-    "directory": "..\\public"
+    "directory": ".output/public"
   },
   "name": "briangiks-akua-gyeke-portfolio-website",
   "compatibility_flags": [
@@ -18,14 +18,9 @@
         "**/*.js"
       ]
     }
-  ]
-}
-
-{
-  // ...
+  ],
   "vars": {
     "SUPABASE_PUBLISHABLE_KEY": "sb_publishable__ko_w3MQVGVmRHWvDec2IQ_yx-EN9r4",
     "SUPABASE_URL": "https://pbsjjocitmpmmonxcdak.supabase.co"
-  },
-  // ...
+  }
 }
