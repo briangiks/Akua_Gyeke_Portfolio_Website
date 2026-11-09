@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import hero from "@/assets/akua-home-cutout.png";
-import portrait from "@/assets/akua-portrait.png.asset.json";
 import { Footer, Nav, Reveal, nuggets } from "@/components/site";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight, ArrowDown } from "lucide-react";
@@ -50,7 +49,7 @@ function Index() {
             <h2 className="font-serif text-6xl italic leading-tight text-cream">Leadership,<br />said honestly.</h2>
             <div className="relative mt-14 w-72 -rotate-6 bg-paper p-4 pb-14 shadow-2xl">
               <span className="absolute -top-3 left-1/2 h-7 w-28 -translate-x-1/2 rotate-3 bg-lime/70" />
-              <img src={portrait.url} alt="Portrait of Akua Gyekye" className="aspect-square w-full object-cover object-top" />
+              <img src="/images/community/community-07.jpg" alt="Portrait of Akua Gyekye in a red and gold patterned outfit" className="aspect-square w-full object-cover object-top" />
             </div>
           </div>
           <div className="space-y-6 text-center font-serif text-lg leading-relaxed text-cream/90 md:text-xl">
