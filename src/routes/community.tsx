@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Footer, Nav, Reveal } from "@/components/site";
-import { PhotoSlideshow, type SlideshowPhoto } from "@/components/community/PhotoSlideshow";
+import { PhotoGallery, type GalleryPhoto } from "@/components/community/PhotoGallery";
 import { ArticleCard, type Article } from "@/components/community/ArticleCard";
 
-const communityPhotos: SlideshowPhoto[] = [
+const communityPhotos: GalleryPhoto[] = [
   { src: "/images/community/community-01.jpg", alt: "Akua Gyekye listening thoughtfully during a panel session" },
   { src: "/images/community/community-02.jpg", alt: "Akua Gyekye sharing a laugh with fellow panelists" },
   { src: "/images/community/community-03.jpg", alt: "Studio portrait of Akua Gyekye in a red and gold patterned dress" },
@@ -11,6 +11,9 @@ const communityPhotos: SlideshowPhoto[] = [
   { src: "/images/community/community-05.jpg", alt: "Akua Gyekye seated at a panel discussion, pen in hand" },
   { src: "/images/community/community-06.jpg", alt: "Close-up of Akua Gyekye in conversation at a forum" },
   { src: "/images/community/community-07.jpg", alt: "Full-length portrait of Akua Gyekye in a red and gold patterned outfit" },
+  { src: "/images/community/community-08.jpg", alt: "Akua Gyekye speaking animatedly in a fireside chat, holding a notebook" },
+  { src: "/images/community/community-09.jpg", alt: "Akua Gyekye smiling while receiving a gift box from the Oxford Africa Business Alliance" },
+  { src: "/images/community/community-10.jpg", alt: "Akua Gyekye speaking at a podium beside a Microsoft banner" },
 ];
 
 const articles: Article[] = [
@@ -131,7 +134,7 @@ function Page() {
         <div className="mx-auto max-w-6xl px-6 py-24 md:px-12">
           <h2 className="text-center font-display text-6xl text-lime">MEDIA</h2>
           <Reveal className="mt-10">
-            <PhotoSlideshow photos={communityPhotos} />
+            <PhotoGallery photos={communityPhotos} />
           </Reveal>
         </div>
       </section>
