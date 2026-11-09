@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import portrait from "@/assets/akua-portrait.png.asset.json";
 import { Footer, Nav, Reveal, nuggets } from "@/components/site";
 
 export const Route = createFileRoute("/leadership-nuggets")({
@@ -22,7 +21,7 @@ function Page() {
       <section className="bg-hero relative overflow-hidden">
         <Nav />
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 pb-24 pt-36 md:grid-cols-[0.8fr_1.2fr] md:px-12">
-          <img src={portrait.url} alt="Akua Gyekye seated, wearing a red and gold patterned outfit" className="animate-rise-up w-full rounded-3xl shadow-2xl" />
+          <img src="/images/community/community-07.jpg" alt="Akua Gyekye in a red and gold patterned outfit" className="animate-rise-up w-full rounded-3xl shadow-2xl" />
           <div className="animate-slide-left">
             <h1 className="font-display text-5xl text-lime md:text-6xl">Who is Akua</h1>
             <div className="mt-8 space-y-5 font-serif text-lg leading-relaxed text-cream/90">
