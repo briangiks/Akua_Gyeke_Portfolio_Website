@@ -1,0 +1,12 @@
+# Requested changes
+- [x] Match the homepage opening to the uploaded reference.
+- [x] Center the Contact title and add the contact form beside the newsletter.
+- [x] Repeat the newsletter in the shared footer.
+- [x] Center Community headings.
+- [x] Check the pages at desktop and mobile sizes.
+- [x] Replace homepage nugget placeholders with the real nugget info.
+- [x] Use the uploaded reference background on the Contact page.
+- [x] Add the supplied video to Community media assets.
+- [x] Add the supplied photos to Community media assets.
+- [ ] Add Akua's LinkedIn profile link to the shared footer.
+- [ ] Configure contact and newsletter delivery to briangichuru254@gmail.com (waiting for a delivery method and sender-domain setup).
