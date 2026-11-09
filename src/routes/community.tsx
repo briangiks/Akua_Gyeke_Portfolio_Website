@@ -5,15 +5,15 @@ import { ArticleCard, type Article } from "@/components/community/ArticleCard";
 
 const communityPhotos: GalleryPhoto[] = [
   { src: "/images/community/community-01.jpg", alt: "Akua Gyekye listening thoughtfully during a panel session" },
-  { src: "/images/community/community-02.jpg", alt: "Akua Gyekye sharing a laugh with fellow panelists" },
+  { src: "/images/community/community-08.jpg", alt: "Akua Gyekye speaking animatedly in a fireside chat, holding a notebook" },
   { src: "/images/community/community-03.jpg", alt: "Studio portrait of Akua Gyekye in a red and gold patterned dress" },
+  { src: "/images/community/community-02.jpg", alt: "Akua Gyekye sharing a laugh with fellow panelists" },
+  { src: "/images/community/community-09.jpg", alt: "Akua Gyekye smiling while receiving a gift box from the Oxford Africa Business Alliance" },
   { src: "/images/community/community-04.jpg", alt: "Headshot portrait of Akua Gyekye" },
   { src: "/images/community/community-05.jpg", alt: "Akua Gyekye seated at a panel discussion, pen in hand" },
+  { src: "/images/community/community-10.jpg", alt: "Akua Gyekye speaking at a podium beside a Microsoft banner" },
   { src: "/images/community/community-06.jpg", alt: "Close-up of Akua Gyekye in conversation at a forum" },
   { src: "/images/community/community-07.jpg", alt: "Full-length portrait of Akua Gyekye in a red and gold patterned outfit" },
-  { src: "/images/community/community-08.jpg", alt: "Akua Gyekye speaking animatedly in a fireside chat, holding a notebook" },
-  { src: "/images/community/community-09.jpg", alt: "Akua Gyekye smiling while receiving a gift box from the Oxford Africa Business Alliance" },
-  { src: "/images/community/community-10.jpg", alt: "Akua Gyekye speaking at a podium beside a Microsoft banner" },
 ];
 
 const articles: Article[] = [
