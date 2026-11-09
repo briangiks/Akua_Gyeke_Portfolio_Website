@@ -4,6 +4,8 @@ export type Article = {
   title: string;
   excerpt: string;
   url: string;
+  /** Vertical focal point for the cropped thumbnail. Defaults to "center". */
+  imagePosition?: "center" | "top";
 };
 
 export function ArticleCard({ article }: { article: Article }) {
@@ -13,7 +15,7 @@ export function ArticleCard({ article }: { article: Article }) {
         <img
           src={article.image}
           alt={article.imageAlt}
-          className="h-full w-full object-cover"
+          className={`h-full w-full object-cover ${article.imagePosition === "top" ? "object-top" : "object-center"}`}
           loading="lazy"
         />
       </div>

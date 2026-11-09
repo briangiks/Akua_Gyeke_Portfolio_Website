@@ -25,6 +25,7 @@ const articles: Article[] = [
   {
     image: "/images/articles/africa-ceo-forum-article.jpg",
     imageAlt: "Portrait of Akua Gyekye",
+    imagePosition: "top",
     title: "Africa CEO Forum 2026 — Speaker Profile",
     excerpt:
       "Akua Gyekye is Microsoft's Head of Government Affairs for Africa, responsible for shaping the company's public policy agenda and leading a team of policy professionals across the continent. Together, they focus on key policy areas including artificial intelligence, cloud computing, data privacy, cybersecurity, digital safety and integrity, and international trade.",
@@ -33,6 +34,7 @@ const articles: Article[] = [
   {
     image: "/images/articles/globalcenter-article.jpg",
     imageAlt: "Portrait of Akua Gyekye",
+    imagePosition: "top",
     title: "Women in Focus: Akua Gyekye",
     excerpt:
       "Akua Gyekye is Senior Director and Head of Government Affairs for Africa at Microsoft, leading a team that works across technology, policy, government engagement, and partnerships throughout the continent. Her work covers AI and cloud governance, regulatory clarity, cybersecurity, and the responsible and inclusive adoption of technology.",
